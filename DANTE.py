@@ -37,7 +37,5 @@ def calorias_totales (peso, nivel_actividad_fisica):
     rer = calcular_rer(peso)
     niveles = rango_actividad.get(nivel_actividad_fisica, 1.0)
 
-
     return rer * niveles
 
-if __name__ == '__main__':
